@@ -1,0 +1,28 @@
+.conversations{
+        background-color: white;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 2rem;
+
+                                    &__img{
+                                width: 100%;
+                            }
+
+                            &__title{
+                                font-family:$fonte-title;
+                                text-transform: uppercase;
+                                font-size: 1rem;
+
+                            }
+
+                            &__text{
+                                text-align: center;
+                                font-family: $fonte-terciaria;
+                                font-size: 1rem;
+                                line-height: 30px;
+                                margin: 0 1rem 1rem 1rem;
+                            }
+}

@@ -1,0 +1,59 @@
+.rodape{
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 107);
+    padding-top: 3rem;
+    
+                    &__logo{
+                        font-family: $fonte-title;
+                        color: white;
+                        padding-left: 1rem;
+                    }
+
+                    &__lista{
+                        list-style: none;
+                        
+                        
+                        
+
+                            &__item{
+                                display: flex;
+                                align-items: center;
+                                gap: 12px;
+
+                                &__text{
+                                    font-family: $fonte-terciaria;
+                                    color: white
+
+                                }
+                                &__img{
+                                    width: 30px;
+                                    padding:1rem 0 ;
+                                    
+                                
+                                }
+
+                            }
+                            
+                        }
+                        
+                        &__navbar{
+                            display: flex;
+                            flex-direction: column;
+                            gap: 0.5rem;
+                            margin: 1.5rem 0 0 2.5rem;
+                            padding-bottom: 2rem; 
+
+                                &__item{
+                                    text-decoration: none;
+                                    color: white;
+                                    font-family: $fonte-terciaria;
+
+                                                &:hover{
+                                                    
+                                                    border-bottom: solid 3px white;
+                                                }
+                            
+                                }
+                        }
+
+}
